@@ -44,7 +44,7 @@ searchButton.addEventListener('click', () => {
     } else {
         warning.innerHTML = ''; // Clear warning
         // Make API call with the selected stock
-        fetch(`http://20.197.44.10/predict?stock=${selectedStock}`)
+        fetch(`https://20.197.44.10/predict?stock=${selectedStock}`)
             .then(response => response.json())
             .then(data => {
                 console.log("panna kopee");
