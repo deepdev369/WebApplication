@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stock Search</title>
+    <title>Sentiment Analysis</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="search-box">
-            <h2>Stock Search</h2>
-            <input type="text" id="stockInput" placeholder="Search for a stock...">
-            <button id="searchButton">Search</button>
-            <div id="suggestions" class="suggestions"></div>
-            <p id="warning" class="warning"></p>
-        </div>
+        <h1>Sentiment Analysis on News Articles</h1>
+        <input type="text" id="topics" placeholder="Enter topics separated by commas" />
+        <button id="submit-btn">Analyze</button>
+        <div id="result" class="result"></div>
     </div>
 
     <script src="script.js"></script>
